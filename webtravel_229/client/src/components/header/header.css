@@ -1,0 +1,43 @@
+.header {
+  margin-top: 0px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444;
+}
+
+.headerTitleSm {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  font-size: 40px;
+  color: black;
+  background-color: #f6f6f6;
+  opacity: 0.8;
+  height: 170px;
+  width: 200px;
+  padding-top: 10px;
+  border-radius: 15%;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 9%;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  /* background-color: #f6f6f6; */
+  opacity: 0.9;
+  height: 150px;
+  padding-top: 3%;
+  border-radius: 10%;
+}
+
+.headerImg {
+  width: 100%;
+  height: 450px;
+  margin-top: 0px;
+  object-fit: cover;
+}

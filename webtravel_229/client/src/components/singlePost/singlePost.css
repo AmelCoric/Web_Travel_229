@@ -1,0 +1,145 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  background-color: rgb(250, 160, 51);
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.delCommentIcon {
+  margin-left: 30px;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #4b4536;
+  font-family: "Varela Round", sans-serif;
+}
+
+.singlePostDesc {
+  color: #000000;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.writeFormGroupUpdate {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-top: 1px dashed #000;
+}
+
+.singlePostTitleInput {
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.singlePostTitleUpdate {
+  margin-bottom: 20px;
+}
+
+.singlePostButton {
+  width: 150px;
+  border: none;
+  background-color: rgb(48, 104, 104);
+  cursor: pointer;
+  padding: 13px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  align-self: center;
+  float: inline-end;
+  margin: 20px 30px 20px 0;
+}
+
+.writeText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add-comment-section {
+  justify-content: space-between;
+}
+
+.form-control {
+  width: 50%;
+}
+
+.commented-user {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 30%;
+}
+
+.likeCounter {
+  margin-left: 10px;
+}
+
+.hit-voting {
+  cursor: pointer;
+}
+
+.fa-sort-up:hover {
+  color: green;
+}
+
+.fa-sort-down:hover {
+  color: red;
+}
+
+.comment-text-sm {
+  color: #4b4536;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+}
+
+.comment-text-sm > span {
+  padding-left: 25px;
+}
+
+.time {
+  color: #666;
+}
+
+.commentAlert {
+  text-align: center;
+  color: red;
+}
+
+.img-fluid {
+  border-radius: 50%;
+}
